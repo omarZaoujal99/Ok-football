@@ -1,2 +1,2 @@
 # Ok-football
-Football(succer) basic news 
+Football(succer) basic news .
