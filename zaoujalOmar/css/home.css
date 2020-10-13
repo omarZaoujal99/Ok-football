@@ -63,7 +63,7 @@ body{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 50px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(236, 236, 237);
     word-wrap: break-word;
     margin-bottom: 15px;
 }
