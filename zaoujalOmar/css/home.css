@@ -18,8 +18,8 @@ body{
     font-size: 20px;
 }
 .lia1:hover{
-    color:  rgb(0, 0, 58);;
-    border-bottom: 1px solid  rgb(0, 0, 58);;
+    color:  rgb(255, 115, 0);
+    border-bottom: 1px solid  rgb(255, 115, 0);
 }
 .li1{
     padding-left: 20px;
@@ -33,14 +33,13 @@ body{
 }
 .btn1:hover{
     outline: none;
-    border-color: black;
+    border-color: rgb(255, 115, 0);
 }
 .navbar-dark .navbar-nav .nav-link{
     color: white;
-    
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-    color:  rgb(0, 0, 58);;
+    color:  rgb(255, 115, 0);
 }
 .navbar-dark .navbar-toggler{
     border-color: white;
@@ -48,7 +47,7 @@ body{
     color: rgb(255, 255, 255,1);
 }
 .navbar-dark .navbar-toggler:hover{
-    border-color:  rgb(0, 0, 58);;
+    border-color:   rgb(255, 115, 0);
 }
 .imgLogo1{
     width: 65px;
@@ -56,6 +55,7 @@ body{
 }
 .nav1{
     flex-direction: row-reverse;
+    background-color:  black;
 }
 .rowClubs {
     display: -ms-flexbox;
@@ -63,7 +63,7 @@ body{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     height: 50px;
-    background-color: #80ffdb;
+    background-color: rgb(236, 236, 236);
     word-wrap: break-word;
     margin-bottom: 15px;
 }
@@ -88,38 +88,48 @@ body{
 }
 .colNews{
     height: 350px;
-    background-color: #48bfe3;
+    background-color: rgb(236, 236, 236);
     margin: 15px 15px 15px 15px;
     padding-right: 0;
     padding-left: 0%;
-    border: 3px ridge #80ffdb;
+    border: 3px ridge gray;
     border-radius: 7px;
-    box-shadow: 5px 5px 5px#24463c;
+    box-shadow: 5px 5px 5px gray;
 }
 .colMatches{
     height: 350px;
     /* Hegiht will be : auto */
-    background-color: #48bfe3;
+    background-color: rgb(236, 236, 236);
     margin: 15px 15px 15px 15px;
     padding-right: 0;
     padding-left: 0%;
-    border: 3px ridge #80ffdb;
+    border: 3px ridge gray;
     border-radius: 7px;
-    box-shadow: 5px 5px 5px #24463c;
+    box-shadow: 5px 5px 5px gray;
 }
 .mnHead{
     text-align: right;
-    background-color: brown;
+    background-color: black;
+    color: white;
     width: 100%;
     padding: 10px 10px 10px 0;
     font-weight: bold;
 }
+.mnLink{
+    text-decoration: none;
+    color: white;
+}
+.mnLink:hover{
+    color: rgb(255, 115, 0);
+    text-decoration: none;
+}
 
 /* footer */
 .footer-top{
-    background: #007bff;
+    background: black;
     clear: both;
     margin-top: -30px;
+    align-items: center;
 }
 .fpad{
     padding: 30px 0 15px 0;
